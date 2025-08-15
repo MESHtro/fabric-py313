@@ -1,5 +1,5 @@
 {
-  python3,
+  python313,
   stdenv,
   gtk3,
   gtk-layer-shell,
@@ -13,7 +13,7 @@
   extraPythonPackages ? [],
   extraBuildInputs ? [],
 }: let
-  python = python3.withPackages (
+  python = python313.withPackages (
     ps:
       with ps;
         [
