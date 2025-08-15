@@ -31,7 +31,7 @@
         overlays.default = overlay;
         formatter = pkgs.nixfmt-rfc-style;
         packages = {
-          default = pkgs.python3Packages.python-fabric;
+          default = pkgs.python313Packages.python-fabric;
           run-widget = pkgs.callPackage ./run-widget.nix {};
         };
 
