@@ -1,6 +1,6 @@
 {
   lib,
-  python312Packages,
+  python313Packages,
   gtk3,
   gtk-layer-shell,
   cairo,
@@ -10,7 +10,7 @@
   cinnamon-desktop,
   gnome-bluetooth,
 }:
-python312Packages.buildPythonPackage {
+python313Packages.buildPythonPackage {
   pname = "python-fabric";
   version = "0.0.2";
   pyproject = true;
