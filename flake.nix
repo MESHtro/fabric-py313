@@ -48,7 +48,7 @@
               gdk-pixbuf
               gnome-bluetooth
               cinnamon-desktop
-              (python3.withPackages (
+              (python313.withPackages (
                 ps:
                   with ps; [
                     setuptools
